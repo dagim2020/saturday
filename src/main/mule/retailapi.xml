@@ -348,6 +348,7 @@ payload]]></ee:set-payload>
         </ee:transform>
     </flow>
     <flow name="get:\Products\productid:retailapi-config">
+		<http:listener doc:name="Listener" doc:id="47505ac1-8006-40a8-a17e-105b4260560a" config-ref="retailapi-httpListenerConfig" path="/d"/>
 		<ee:transform doc:name="Transform Message" doc:id="e270d5d8-d065-486e-a9ac-f4816ad5269e" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
