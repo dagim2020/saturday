@@ -1,0 +1,77 @@
+#%RAML 1.0 ResourceType
+collection1:
+    usage: This API is used by <<resourcePathName>>
+    description: API is used ti retrieve and create <<resourcePathName>>
+    get:
+      description: Fetchs list of all  <<resourcePathName>> data
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                <<exampleReference1>>
+      is:
+        [root]          
+    post:
+      description: This API is used to create <<resourcePathName>>
+      body: 
+        application/json:
+          example: |
+            <<exampleReference2>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> Created"}
+collection2:
+    usage: This API is used by <<resourcePathName>>
+    description: API is used ti retrieve and create <<resourcePathName>>
+    get:
+      description: Fetchs list of all  <<resourcePathName>> data
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                <<exampleReference3>>
+      is: [root]
+                  
+    put:
+      description: This API is used to create <<resourcePathName>>
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+        #description: update specific product
+      body: 
+        application/json:
+          example: |
+            <<exampleReference4>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> successfully updated"}
+    delete:
+      description: This API is used to create <<resourcePathName>>
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+        #description: delete a specific product
+      body: 
+        application/json:
+          example: |
+            <<exampleReference5>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> successfully deleted"}

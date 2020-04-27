@@ -1,0 +1,37 @@
+[
+              {
+                "id":"1",
+                "catagory":"phone",
+                "productname":"samsung note 5",
+                "condition":"new",
+                "price":"300"
+              },
+              {
+                "id":"2",
+                "catagory":"phone",
+                "productname":"samsung note 8",
+                "condition":"open box",
+                "price":"500"
+              },
+              {
+                "id":"3",
+                "catagory":"phone",
+                "productname":"samsung galaxy 9",
+                "condition":"new",
+                "price":"600"
+              },
+              {
+                "id":"4",
+                "catagory":"phone",
+                "productname":"i phone 8",
+                "condition":"new",
+                "price":"700"
+              },
+              {
+                "id":"5",
+                "catagory":"laptop",
+                "productname":"lenovo 500",
+                "condition":"new",
+                "price":"1200"
+              }
+            ]

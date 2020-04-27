@@ -1,0 +1,135 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/6819076a-42d1-452b-95ee-b6e84e111c66/ # 
+#%RAML 1.0
+title: retail_API
+
+mediaType: application/json
+documentation:
+  - !include Documentation/breafing.raml
+types:
+  Bills: !include dataType/Bills.raml
+  products: !include dataType/products.raml
+  productCatagory: !include dataType/productCatagory.raml
+traits:
+  root: !include traits/common.raml
+
+resourceTypes: 
+  collection1:
+    usage: This API is used by <<resourcePathName>>
+    description: API is used ti retrieve and create <<resourcePathName>>
+    get:
+      description: Fetchs list of all  <<resourcePathName>> data
+      responses: 
+        200:
+          body: 
+            application/json:
+              type: 
+              example: |
+                <<exampleReference1>>
+      is:
+        - root:
+          
+    post:
+      description: This API is used to create <<resourcePathName>>
+      body: 
+        application/json:
+          example: |
+            <<exampleReference2>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> Created"}
+ 
+  collection2:
+    usage: This API is used by <<resourcePathName>>
+    description: API is used ti retrieve and create <<resourcePathName>>
+    get:
+      description: Fetchs list of all  <<resourcePathName>> data
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                <<exampleReference3>>
+      is: [root]
+                  
+    put:
+      description: This API is used to create <<resourcePathName>>
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+        #description: update specific product
+      body: 
+        application/json:
+          example: |
+            <<exampleReference4>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> successfully updated"}
+    delete:
+      description: This API is used to create <<resourcePathName>>
+      queryParameters:
+        id: 
+          type: integer
+          required: true
+        #description: delete a specific product
+      body: 
+        application/json:
+          example: |
+            <<exampleReference5>>
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: |
+                {"message":"<<resourcePathName>> successfully deleted"}
+/Products:
+  type:
+    collection1:
+      exampleReference: Products []
+      exampleReference1: !include Exampleforproducts/example1.json
+      exampleReference2: !include Exampleforproducts/example2.json
+  
+  /productid:
+    type:
+      collection2:
+        exampleReference3: !include Exampleforproducts/example3.json
+        exampleReference4: !include Exampleforproducts/example4.json
+        exampleReference5: !include Exampleforproducts/example5.json
+    
+/Bills:
+  type:
+    collection1:
+      
+      exampleReference: Bills []
+      exampleReference1: !include exampleforbills/example1.json
+      exampleReference2:  !include exampleforbills/example2.json
+  /billsid:
+    type:
+      collection2:
+        exampleReference: productCatagory []
+        exampleReference3: !include exampleforbills/example3.json
+        exampleReference4: !include exampleforbills/example4.json
+        exampleReference5:  !include exampleforbills/example5.json
+/ProductCatagory: 
+  type:
+    collection1:
+      exampleReference1: !include exampleforproducttype/example1.json
+      exampleReference2:  !include exampleforproducttype/example2.json
+  /productcatagoryid:
+    type:
+      collection2:
+        exampleReference3: !include exampleforproducttype/exam3.json
+        exampleReference4: !include exampleforproducttype/example4.json
+        exampleReference5: !include exampleforproducttype/example5.json
+        
