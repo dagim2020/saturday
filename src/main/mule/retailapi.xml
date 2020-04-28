@@ -235,6 +235,17 @@ payload.body.GetAllBillsResponse]]></ee:set-payload>
         </ee:transform>
     </flow>
     <flow name="get:\ProductCatagory:retailapi-config">
+		<ee:transform doc:name="Transform Message" doc:id="2e11c74a-a0f9-43f3-a43c-51847acae6b5" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/xml
+ns ns0 http://www.craftsoftware.com/retail
+---
+{
+	ns0#GetAllProductCategorysRequest: payload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
 		<wsc:consume doc:id="91cfb6c0-9439-4183-a2ff-c34ee1d65366" config-ref="Web_Service_Consumer_Config" operation="GetAllProductCategorys"/>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
             <ee:message>
@@ -295,7 +306,7 @@ output application/xml
 ns ns0 http://www.craftsoftware.com/retail
 ---
 {
-	ns0#GetAllProductsRequest: payload
+	ns0#GetAllProductsRequest: null
 }]]></ee:set-payload>
 			</ee:message>
 			<ee:variables>
@@ -313,7 +324,18 @@ payload.body.GetAllProductsResponse.*Products]]></ee:set-payload>
         </ee:transform>
     </flow>
     <flow name="get:\Bills\billsid:retailapi-config">
-        <wsc:consume doc:name="Consume" doc:id="605c9738-fd2d-4cac-9e74-3f4396877313" config-ref="Web_Service_Consumer_Config" operation="GetAllBills"/>
+        <ee:transform doc:name="Transform Message" doc:id="0ce6a073-e8b4-47ee-8d80-0ee4e207bea7" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/xml
+ns ns0 http://www.craftsoftware.com/retail
+---
+{
+	ns0#GetAllBillsRequest: payload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<wsc:consume doc:name="Consume" doc:id="605c9738-fd2d-4cac-9e74-3f4396877313" config-ref="Web_Service_Consumer_Config" operation="GetAllBills"/>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
@@ -343,12 +365,11 @@ ns ns0 http://www.craftsoftware.com/retail
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-payload]]></ee:set-payload>
+payload.body.GetProductCategoryResponse]]></ee:set-payload>
             </ee:message>
         </ee:transform>
     </flow>
     <flow name="get:\Products\productid:retailapi-config">
-		<http:listener doc:name="Listener" doc:id="47505ac1-8006-40a8-a17e-105b4260560a" config-ref="retailapi-httpListenerConfig" path="/d"/>
 		<ee:transform doc:name="Transform Message" doc:id="e270d5d8-d065-486e-a9ac-f4816ad5269e" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
@@ -416,7 +437,6 @@ ns ns0 http://www.craftsoftware.com/retail
 {
 	ns0#CreateProductCategoryRequest: {
 		ns0#CreateProductCategory: {
-			ns0#id: payload.id,
 			ns0#name: payload.name
 		}
 	}
