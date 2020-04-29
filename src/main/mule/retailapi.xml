@@ -114,7 +114,8 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="put:\Products\productid:application\json:retailapi-config">
-        <ee:transform doc:name="Transform Message" doc:id="34f769e4-9c5d-4193-82dc-7efe6e26319b" >
+        <http:listener doc:name="Listener" doc:id="e233e1e6-baf4-4f87-a76c-efff5fc09325" config-ref="retailapi-httpListenerConfig" path="/d"/>
+		<ee:transform doc:name="Transform Message" doc:id="34f769e4-9c5d-4193-82dc-7efe6e26319b" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/xml
