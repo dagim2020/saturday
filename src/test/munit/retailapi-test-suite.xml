@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="retailapi-test-suite.xml" />
+	<munit:before-test name="retailapi-test-suiteBefore_Test" doc:id="36a8e2c7-86b3-4a32-91f1-8b05b38f467f" >
+		<munit:set-event doc:name="Set Event" doc:id="cf64ec51-9965-473e-bebf-d07822e9d63a" >
+			<munit:payload value="#[{ queryParams:{'id': 2 }}]" />
+		</munit:set-event>
+	</munit:before-test>
+	<munit:test name="retailapi-test-suite-get:\Products\productid:retailapi-configTest" doc:id="2d384e6c-96d4-44e2-a844-8dc6129a0e72" description="Test">
+		<munit:behavior >
+			<munit-tools:mock-when doc:name="Mock when" doc:id="5913800d-7c16-4f7c-929a-e388e6591947" processor="wsc:consume">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="Consume" attributeName="doc:name" />
+				</munit-tools:with-attributes>
+				<munit-tools:then-return >
+					<munit-tools:payload value="#[MunitTools::getResourceAsString('sampleProductsId.json')]" mediaType="application/json" />
+				</munit-tools:then-return>
+			</munit-tools:mock-when>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\Products\productid:retailapi-config" doc:id="1e97ddad-c5d0-4307-b3e4-b9ab867edcb9" name="get:\Products\productid:retailapi-config"/>
+		</munit:execution>
+		<munit:validation >
+			<munit-tools:assert-that doc:name="Assert that" doc:id="4a6acb8a-7bc5-406f-a218-d85b0e6554c2" is="#[MunitTools::equalTo('{
+    &quot;barCodeId&quot;:5,
+    &quot;id&quot;: 2,
+    &quot;name&quot;: &quot;Banana&quot;,
+    &quot;productCategory&quot;: &quot;vegitable&quot;,]" expression="#[payload]"/>
+		</munit:validation>
+	</munit:test>
+	<munit:test name="retailapi-test-suite-get:\Products:retailapi-configTest" doc:id="8ca8d069-322e-4ab8-a94d-973a195a617e" description="Test" ignore="true">
+		<munit:behavior >
+			<munit-tools:mock-when doc:name="Mock when" doc:id="560c9d54-fe30-41c0-b76e-2ab50979241b" processor="wsc:consume">
+				<munit-tools:with-attributes >
+					<munit-tools:with-attribute whereValue="Consume" attributeName="doc:name" />
+				</munit-tools:with-attributes>
+				<munit-tools:then-return >
+					<munit-tools:payload value="#[MunitTools::getResourceAsString('sampleProducts.json')]" mediaType="application/json" />
+				</munit-tools:then-return>
+			</munit-tools:mock-when>
+		</munit:behavior>
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to get:\Products:retailapi-config" doc:id="a053ed5c-b795-4bbe-8484-fe44b3a1fbce" name="get:\Products:retailapi-config"/>
+		</munit:execution>
+		<munit:validation >
+			<munit-tools:assert-that doc:name="Assert that" doc:id="072c7fe8-5eb8-4d97-b87b-04dcf570b421" is="#[MunitTools::withMediaType('application/json')]" expression="#[payload]"/>
+		</munit:validation>
+	</munit:test>
+
+
+</mule>

@@ -1,0 +1,856 @@
+[
+  {
+    "barCodeId": "?",
+    "id": "2",
+    "name": "?",
+    "productCategory": "?",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "123343215",
+    "id": "7",
+    "name": "orange",
+    "productCategory": "Fruit",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "string",
+    "id": "8",
+    "name": "string",
+    "productCategory": "string",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "102020212",
+    "id": "44",
+    "name": "apple",
+    "productCategory": "computer",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "BARCODE",
+    "id": "53",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_1",
+    "id": "71",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_2",
+    "id": "75",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_4",
+    "id": "76",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_5",
+    "id": "77",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_6",
+    "id": "79",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_7",
+    "id": "81",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_8",
+    "id": "82",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_9",
+    "id": "85",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "bar_code_10",
+    "id": "86",
+    "name": "Laptop",
+    "productCategory": "Electronics",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "000011",
+    "id": "87",
+    "name": "samsung",
+    "productCategory": "electronics",
+    "rate": "8.0"
+  },
+  {
+    "barCodeId": null,
+    "id": "89",
+    "name": "Rita",
+    "productCategory": "Frut",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "a",
+    "id": "115",
+    "name": "tem",
+    "productCategory": "c",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "1a",
+    "id": "121",
+    "name": "te2m",
+    "productCategory": "c0",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "61a",
+    "id": "123",
+    "name": "te22m",
+    "productCategory": "3c0",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "458",
+    "id": "124",
+    "name": "sam",
+    "productCategory": "adfsdf",
+    "rate": "1.0"
+  },
+  {
+    "barCodeId": "33333",
+    "id": "127",
+    "name": "temesgen",
+    "productCategory": "bandj",
+    "rate": "9.0"
+  },
+  {
+    "barCodeId": "05555",
+    "id": "129",
+    "name": "samsu",
+    "productCategory": "electronics",
+    "rate": "8.0"
+  },
+  {
+    "barCodeId": "05000555",
+    "id": "135",
+    "name": "samsu",
+    "productCategory": "electronics",
+    "rate": "7.0"
+  },
+  {
+    "barCodeId": "ghfdufufgfjf",
+    "id": "137",
+    "name": "kjgkhghghj",
+    "productCategory": "2233",
+    "rate": "12456.0"
+  },
+  {
+    "barCodeId": "11111",
+    "id": "152",
+    "name": "samsungpppppppppppppp",
+    "productCategory": "electronicsjjjjjjjjjjjjjjjj",
+    "rate": "5222.0"
+  },
+  {
+    "barCodeId": "j7887",
+    "id": "154",
+    "name": "hpking",
+    "productCategory": "u8u88",
+    "rate": "4.0"
+  },
+  {
+    "barCodeId": "5656AH",
+    "id": "168",
+    "name": "Ethiopia",
+    "productCategory": "AAAABBB",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "iiiii",
+    "id": "175",
+    "name": "lllllllllllll",
+    "productCategory": "uuu",
+    "rate": "909023.0"
+  },
+  {
+    "barCodeId": "294",
+    "id": "179",
+    "name": "Dill",
+    "productCategory": "?",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "233123456",
+    "id": "190",
+    "name": "HP Desktop",
+    "productCategory": "Electronics",
+    "rate": "25.0"
+  },
+  {
+    "barCodeId": "ASAS",
+    "id": "208",
+    "name": "WOOD",
+    "productCategory": "AA",
+    "rate": "4.2"
+  },
+  {
+    "barCodeId": "pol",
+    "id": "211",
+    "name": "fgh",
+    "productCategory": "CC",
+    "rate": "4.0"
+  },
+  {
+    "barCodeId": "1111111",
+    "id": "217",
+    "name": "orange",
+    "productCategory": "tv",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "sofiya",
+    "id": "228",
+    "name": "temesgen",
+    "productCategory": "2233",
+    "rate": "126.0"
+  },
+  {
+    "barCodeId": "24",
+    "id": "238",
+    "name": "ADD",
+    "productCategory": "BVCQ",
+    "rate": "3.0"
+  },
+  {
+    "barCodeId": "FXF",
+    "id": "239",
+    "name": "SHOE",
+    "productCategory": "ALDO",
+    "rate": "15.55"
+  },
+  {
+    "barCodeId": "ss12",
+    "id": "258",
+    "name": "Apple",
+    "productCategory": "Fruit",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "sgsg",
+    "id": "268",
+    "name": "Tete",
+    "productCategory": "sis",
+    "rate": "1.2"
+  },
+  {
+    "barCodeId": "ujbggg34g",
+    "id": "273",
+    "name": "dell",
+    "productCategory": null,
+    "rate": "990909.0"
+  },
+  {
+    "barCodeId": "55555555555555555555",
+    "id": "277",
+    "name": "bluphone",
+    "productCategory": "electronics",
+    "rate": "111.0"
+  },
+  {
+    "barCodeId": "ggg34g",
+    "id": "280",
+    "name": "dell",
+    "productCategory": null,
+    "rate": "990909.0"
+  },
+  {
+    "barCodeId": "9999999999999999999",
+    "id": "284",
+    "name": "blackberry",
+    "productCategory": "electronics",
+    "rate": "112.0"
+  },
+  {
+    "barCodeId": "ETHIOPA",
+    "id": "287",
+    "name": "Habtam",
+    "productCategory": "AA",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "4444444444444444",
+    "id": "295",
+    "name": "onephone",
+    "productCategory": "electronics",
+    "rate": "112.0"
+  },
+  {
+    "barCodeId": "ggr3g34g",
+    "id": "297",
+    "name": "dell",
+    "productCategory": null,
+    "rate": "990909.0"
+  },
+  {
+    "barCodeId": "ggr3g34gg",
+    "id": "298",
+    "name": "dellgg",
+    "productCategory": null,
+    "rate": "9.9090908888E10"
+  },
+  {
+    "barCodeId": "12",
+    "id": "299",
+    "name": "solomone",
+    "productCategory": "nonorganic",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "ss125",
+    "id": "300",
+    "name": "carrot",
+    "productCategory": "Veggie",
+    "rate": "4.0"
+  },
+  {
+    "barCodeId": "3333333333333333",
+    "id": "302",
+    "name": "hellophone",
+    "productCategory": "electronics",
+    "rate": "110.0"
+  },
+  {
+    "barCodeId": "252525",
+    "id": "314",
+    "name": "helloworld",
+    "productCategory": "Lg",
+    "rate": "122.0"
+  },
+  {
+    "barCodeId": "47896",
+    "id": "317",
+    "name": "Peace",
+    "productCategory": "ASR",
+    "rate": "144.0"
+  },
+  {
+    "barCodeId": "123456",
+    "id": "325",
+    "name": "Lem",
+    "productCategory": "yy",
+    "rate": "4.0"
+  },
+  {
+    "barCodeId": "345",
+    "id": "327",
+    "name": "temilla",
+    "productCategory": null,
+    "rate": "2.0"
+  },
+  {
+    "barCodeId": "3455555",
+    "id": "330",
+    "name": "temilla",
+    "productCategory": "mar",
+    "rate": "2.0"
+  },
+  {
+    "barCodeId": "A1212",
+    "id": "331",
+    "name": "Sidestkilo",
+    "productCategory": "Ethiopa",
+    "rate": "4.2"
+  },
+  {
+    "barCodeId": "345555",
+    "id": "334",
+    "name": "temilla",
+    "productCategory": "mar",
+    "rate": "2.0"
+  },
+  {
+    "barCodeId": "1045555",
+    "id": "338",
+    "name": "temilla",
+    "productCategory": "mar",
+    "rate": "2.0"
+  },
+  {
+    "barCodeId": "123SRTDW",
+    "id": "361",
+    "name": "PC",
+    "productCategory": "Office",
+    "rate": "23.05"
+  },
+  {
+    "barCodeId": "Mule",
+    "id": "379",
+    "name": "Batch_14",
+    "productCategory": "?",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "Mule_4_AA",
+    "id": "381",
+    "name": "Ready",
+    "productCategory": "Mule_4",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "1212145",
+    "id": "396",
+    "name": "lemon",
+    "productCategory": "Ethiopia",
+    "rate": "6.0"
+  },
+  {
+    "barCodeId": "25256",
+    "id": "397",
+    "name": "Bee",
+    "productCategory": "Addis",
+    "rate": "6.0"
+  },
+  {
+    "barCodeId": "4565",
+    "id": "398",
+    "name": "merhiwete",
+    "productCategory": "Bassa",
+    "rate": "8.0"
+  },
+  {
+    "barCodeId": "c9999999995465456464646",
+    "id": "433",
+    "name": "cameraaaaaaaaaaaaaaaaaaaa",
+    "productCategory": "asfcjakjcggggggggg",
+    "rate": "5.7"
+  },
+  {
+    "barCodeId": "BARCODE_Ash",
+    "id": "437",
+    "name": "HP",
+    "productCategory": "Electronics_Ash",
+    "rate": "559.99"
+  },
+  {
+    "barCodeId": "4",
+    "id": "451",
+    "name": "sdf",
+    "productCategory": "3",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "2",
+    "id": "452",
+    "name": "solomon",
+    "productCategory": "nonorganic",
+    "rate": "1.0"
+  },
+  {
+    "barCodeId": "1",
+    "id": "454",
+    "name": "solomonm",
+    "productCategory": "nonorganic",
+    "rate": "1.0"
+  },
+  {
+    "barCodeId": "78",
+    "id": "468",
+    "name": "nokia",
+    "productCategory": "sport",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "41",
+    "id": "477",
+    "name": "i6",
+    "productCategory": "sport",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "41454554",
+    "id": "478",
+    "name": "i6",
+    "productCategory": "sport",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "4444",
+    "id": "486",
+    "name": "nokia",
+    "productCategory": "sport",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "444",
+    "id": "487",
+    "name": "motorola",
+    "productCategory": "electro",
+    "rate": "2.2"
+  },
+  {
+    "barCodeId": "444QWR20212",
+    "id": "488",
+    "name": "appleMAC",
+    "productCategory": "VIN",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "30",
+    "id": "489",
+    "name": "motorola",
+    "productCategory": "electro",
+    "rate": "2.2"
+  },
+  {
+    "barCodeId": "444Q20212",
+    "id": "518",
+    "name": "appleMAC",
+    "productCategory": "?",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "3000",
+    "id": "527",
+    "name": "orange",
+    "productCategory": "Rita",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "STYUDG",
+    "id": "528",
+    "name": "appleMAC",
+    "productCategory": "Computer",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "7888",
+    "id": "532",
+    "name": "nokijja",
+    "productCategory": "sport",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "OURLIFE",
+    "id": "544",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "OURLIFESHACK",
+    "id": "546",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "BINIAMER",
+    "id": "548",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "OOOOONIAMER",
+    "id": "549",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "BelayNIAMER",
+    "id": "552",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "avbb123",
+    "id": "561",
+    "name": null,
+    "productCategory": "asde1234",
+    "rate": "12.5"
+  },
+  {
+    "barCodeId": "22256NIAMER",
+    "id": "563",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "33333NIAMER",
+    "id": "566",
+    "name": "MERCURY",
+    "productCategory": "NOC",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "567865",
+    "id": "568",
+    "name": "dell",
+    "productCategory": "computers",
+    "rate": "7.0"
+  },
+  {
+    "barCodeId": "444444444444444444",
+    "id": "576",
+    "name": "ababbbbbbbbbbbbbb",
+    "productCategory": "nnnnnnnnnnnnnnnnnnn",
+    "rate": "12.3"
+  },
+  {
+    "barCodeId": "444444444444444444555555555555",
+    "id": "578",
+    "name": "efruuuuuuuuuuuuuuuuu",
+    "productCategory": "bom",
+    "rate": "12.3"
+  },
+  {
+    "barCodeId": "a112225",
+    "id": "583",
+    "name": "Bekolo",
+    "productCategory": "Agelgil",
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "12334321abc",
+    "id": "584",
+    "name": "Beer",
+    "productCategory": "Beverage",
+    "rate": "10.0"
+  },
+  {
+    "barCodeId": "a112226",
+    "id": "596",
+    "name": "Amhara",
+    "productCategory": "Amhara1702",
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "a112229",
+    "id": "598",
+    "name": "Amhara",
+    "productCategory": "Amhara1702Amhara Amhara Amhara",
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "G432987528",
+    "id": "615",
+    "name": null,
+    "productCategory": null,
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "4546666fg",
+    "id": "684",
+    "name": "kidst",
+    "productCategory": "computer",
+    "rate": "34.0"
+  },
+  {
+    "barCodeId": "45469999fg",
+    "id": "686",
+    "name": "kidst",
+    "productCategory": "computer",
+    "rate": "34.0"
+  },
+  {
+    "barCodeId": "Tablet",
+    "id": "697",
+    "name": "Tablet",
+    "productCategory": "Tablet?",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "Tablett",
+    "id": "700",
+    "name": "Tablett",
+    "productCategory": "Tablett?",
+    "rate": "999906.0"
+  },
+  {
+    "barCodeId": "hp8760",
+    "id": "715",
+    "name": "hhh",
+    "productCategory": "shoe",
+    "rate": "3.8"
+  },
+  {
+    "barCodeId": "GG2000",
+    "id": "733",
+    "name": null,
+    "productCategory": null,
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "GGG2020",
+    "id": "740",
+    "name": null,
+    "productCategory": null,
+    "rate": "10.5"
+  },
+  {
+    "barCodeId": "123",
+    "id": "743",
+    "name": "tt",
+    "productCategory": "A",
+    "rate": "11.0"
+  },
+  {
+    "barCodeId": "NGG2020",
+    "id": "744",
+    "name": "GAP",
+    "productCategory": "SHIRT",
+    "rate": "5.5"
+  },
+  {
+    "barCodeId": "88898",
+    "id": "802",
+    "name": "Mar",
+    "productCategory": "Rita",
+    "rate": "6.5"
+  },
+  {
+    "barCodeId": "hhh",
+    "id": "807",
+    "name": "philly",
+    "productCategory": "ph",
+    "rate": "0.0"
+  },
+  {
+    "barCodeId": "AA1212AA",
+    "id": "822",
+    "name": "efrata",
+    "productCategory": "LG",
+    "rate": "4.9"
+  },
+  {
+    "barCodeId": "GG2020",
+    "id": "824",
+    "name": "Hisense",
+    "productCategory": "TV",
+    "rate": "4.5"
+  },
+  {
+    "barCodeId": "1209202",
+    "id": "825",
+    "name": "test",
+    "productCategory": "phone",
+    "rate": "3.0"
+  },
+  {
+    "barCodeId": "GGG20",
+    "id": "836",
+    "name": "Hisense",
+    "productCategory": "TV",
+    "rate": "4.5"
+  },
+  {
+    "barCodeId": "HGG20",
+    "id": "841",
+    "name": "LG",
+    "productCategory": "TV",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "BHGG20",
+    "id": "842",
+    "name": "Adidas",
+    "productCategory": "Shoe",
+    "rate": "5.0"
+  },
+  {
+    "barCodeId": "999MRIETA",
+    "id": "858",
+    "name": "OPANZA",
+    "productCategory": "Fruit",
+    "rate": "10.99"
+  },
+  {
+    "barCodeId": "1111MRIETA",
+    "id": "861",
+    "name": "QUE",
+    "productCategory": "Fruit",
+    "rate": "10.99"
+  },
+  {
+    "barCodeId": "123abv",
+    "id": "874",
+    "name": "lotion",
+    "productCategory": "skin care",
+    "rate": "3.5"
+  },
+  {
+    "barCodeId": "mg0803",
+    "id": "888",
+    "name": "mihret",
+    "productCategory": "student",
+    "rate": "15.5"
+  },
+  {
+    "barCodeId": "FXLLL",
+    "id": "909",
+    "name": "wine",
+    "productCategory": "NJ",
+    "rate": "99.9"
+  },
+  {
+    "barCodeId": "768",
+    "id": "919",
+    "name": "zimbabwe",
+    "productCategory": "laptop",
+    "rate": "6.8"
+  },
+  {
+    "barCodeId": "aa2345",
+    "id": "925",
+    "name": "Dell",
+    "productCategory": "Computer",
+    "rate": "4.0"
+  },
+  {
+    "barCodeId": "sun",
+    "id": "927",
+    "name": "rich",
+    "productCategory": "food",
+    "rate": "123.1"
+  },
+  {
+    "barCodeId": "102030212",
+    "id": "943",
+    "name": "HB",
+    "productCategory": "PEncil",
+    "rate": "2.4"
+  },
+  {
+    "barCodeId": "101010",
+    "id": "949",
+    "name": "bread",
+    "productCategory": "Bakery",
+    "rate": "2.0"
+  }
+]

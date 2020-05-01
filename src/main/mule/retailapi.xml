@@ -114,7 +114,6 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="put:\Products\productid:application\json:retailapi-config">
-        <http:listener doc:name="Listener" doc:id="e233e1e6-baf4-4f87-a76c-efff5fc09325" config-ref="retailapi-httpListenerConfig" path="/d"/>
 		<ee:transform doc:name="Transform Message" doc:id="34f769e4-9c5d-4193-82dc-7efe6e26319b" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
@@ -225,7 +224,18 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="get:\Bills:retailapi-config">
-        <wsc:consume operation="GetAllBills" doc:name="Consume" doc:id="20057038-3fdc-41ab-b88d-032f3b297d04" config-ref="Web_Service_Consumer_Config"/>
+        <ee:transform doc:name="Transform Message" doc:id="a3bd2f41-6fdf-4ac9-b96d-ae2006dca281" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/xml
+ns ns0 http://www.craftsoftware.com/retail
+---
+{
+	ns0#GetAllBillsRequest: payload
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<wsc:consume operation="GetAllBills" doc:name="Consume" doc:id="20057038-3fdc-41ab-b88d-032f3b297d04" config-ref="Web_Service_Consumer_Config"/>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
             <ee:message>
                 <ee:set-payload><![CDATA[%dw 2.0
